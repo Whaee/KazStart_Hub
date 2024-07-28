@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8%;
+    
+    
+}
+
+.i-1{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    height: 85px;
+}
+
+header nav ul li{
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.u-1{
+    position: relative;
+    top: 30px;
+}
+
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: white;
+    display: none;
+}
+
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid black;
+}
+
+nav ul li ul li ul{
+    left: 180px;
+    top: 0;
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+.container{
+    position: relative;
+    top: 350px;
+    text-align: center;
+    font-family: serif;
+    font-size: 60px;
+}
+
+.h-1{
+    position: relative;
+    right: 170px;
+    font-weight: bold;
+}
+
+.h-2{
+    position: relative;
+    left: 270px;
+}
+
+.p-1{
+    position: absolute;
+    top: 47%;
+    left: 27%;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.play-button {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    cursor: pointer;
+    color: lightskyblue;
+}
+
+.i-2{
+    position: absolute;
+    top: 30px;
+    right: 550px;
+    height: 100px;
+    transform: rotate(130deg);
+}
+ 
+.circle__wrapper {
+    position: relative;
+    bottom: 127px;
+    right: 2px;
+    margin: 20px auto;
+    width: 100px;  /* Уменьшить размер */
+    height: 100px;  /* Уменьшить размер */
+    animation: animate 7s linear infinite;
+}
+  
+.circle__wrp {
+    position: relative;
+    width: 150px;  /* Уменьшить размер */
+    height: 150px;  /* Уменьшить размер */
+    margin: 0 auto;
+    transform: rotate(175deg);
+}
+  
+.circle__wrp:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+  
+.circle__wrp>span {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    color: deepskyblue;
+}
+  
+.circle__svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px;  /* Уменьшить размер */
+    height: 100px;  /* Уменьшить размер */
+    margin: auto;
+}
+  
+.circle__svg text {
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    fill: deepskyblue;
+}
+  
+.circle__svg svg {
+    position: absolute;
+    top: -50px;  /* Уменьшить значение для центрирования */
+    left: -50px;  /* Уменьшить значение для центрирования */
+    right: 0;
+    bottom: 0;
+    width: 200px;  /* Уменьшить размер */
+    height: 200px;  /* Уменьшить размер */
+}
+  
+@keyframes animate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.btn{
+    border: 2px solid deepskyblue;
+    position: relative;
+    top: 300px;
+    left: 40%;
+    padding: 10px;
+    font-size: 40px;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+
+}
+
+.btn a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: deepskyblue;
+}
