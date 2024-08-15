@@ -1,0 +1,651 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 8%;
+}
+
+.i-1{
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    height: 85px;
+}
+
+header nav ul li{
+    position: relative;
+    float: left;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: black;
+    font-size: 16px;
+    display: block;
+}
+
+header nav ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+.u-1{
+    position: relative;
+    top: 30px;
+}
+
+nav ul li ul{
+    position: absolute;
+    left: 0;
+    width: 180px;
+    background: white;
+    display: none;
+}
+
+nav ul li ul li{
+    width: 100%;
+    border: 1px solid black;
+}
+
+nav ul li ul li ul{
+    left: 180px;
+    top: 0;
+}
+
+nav ul li:hover > ul {
+    display: initial;
+}
+
+.container{
+    position: relative;
+    top: 300px;
+    text-align: center;
+    font-family: serif;
+    font-size: 60px;
+}
+
+.h-1{
+    position: relative;
+    right: 170px;
+    font-weight: bold;
+}
+
+.h-2{
+    position: relative;
+    left: 270px;
+}
+
+
+.p-1{
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    bottom: 220px;
+    left: 27%;
+}
+
+.play-button {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    cursor: pointer;
+    color: lightskyblue;
+}
+
+.i-2{
+    position: absolute;
+    top: 10%;
+    right: 33%;
+    height: 100px;
+    transform: rotate(130deg);
+}
+ 
+.circle__wrapper {
+    position: relative;
+    bottom: 127px;
+    right: 2px;
+    margin: 20px auto;
+    width: 100px;  
+    height: 100px;  
+    animation: animate 7s linear infinite;
+}
+  
+.circle__wrp {
+    position: relative;
+    width: 150px;  
+    height: 150px;  
+    margin: 0 auto;
+    transform: rotate(175deg);
+}
+  
+.circle__wrp:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+  
+.circle__wrp>span {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    color: deepskyblue;
+}
+  
+.circle__svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100px; 
+    height: 100px;  
+    margin: auto;
+}
+  
+.circle__svg text {
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    fill: deepskyblue;
+}
+  
+.circle__svg svg {
+    position: absolute;
+    top: -50px;  
+    left: -50px;  
+    right: 0;
+    bottom: 0;
+    width: 200px; 
+    height: 200px;  
+}
+  
+@keyframes animate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+.btn{
+    border: 2px solid lightblue;
+    position: relative;
+    top: 300px;
+    left: 40%;
+    padding: 10px;
+    font-size: 40px;
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    width: 300px;
+}
+
+.btn a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.up{
+    text-decoration: none;
+    color: black;
+}
+
+.btn-1{
+    background-color: #e5e7e9;
+    padding: 13px;
+    width: 180px;
+    border: none;
+    position: relative;
+    top: 1900px;
+    left: 88%;
+    font-size: 15px;
+}
+
+.btn-1:hover{
+    background-color: #fff;
+    box-shadow: 1px 4px 4px 0px #e5e7e9;
+}
+
+.services-1{
+    background-color: #f2f3f4 ;
+    position: relative;
+    top: 500px;
+    padding: 250px;
+    text-align: center;
+    height: 1000px;
+}
+
+.services-our{
+    position: relative;
+    bottom: 160px;
+}
+
+.services{
+    position: relative;
+    bottom: 190px;
+}
+
+.people{
+    position: relative;
+    top: 80px;
+    right: 400px;
+}
+
+.sun{
+    position: relative;
+    bottom: 200px;
+}
+
+.tel{
+    position: relative;
+    right: 400px;
+    bottom: 400px;
+}
+
+.chat{
+    position: relative;
+    bottom: 700px;
+}
+
+.setting{
+    position: relative;
+    left: 400px;
+    bottom: 500px;
+}
+
+.sound{
+    position: relative;
+    bottom: 1000px;
+    left: 400px;
+}
+
+
+.services-h{
+    position: relative;
+    top: 90px;
+    right: 400px;
+    bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.services-p{
+    position: relative;
+    top: 90px;
+    right: 400px;
+    bottom: 30px;
+    font-size: 13px;
+}
+
+.services-h-3{
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    margin-bottom: 20px;
+}
+
+.services-p-3{
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    font-size: 13px;
+}
+
+.services-h-4{
+    position: relative;
+    bottom: 400px;
+    right: 400px;
+    margin-bottom: 20px;
+}
+
+.services-p-4{
+    position: relative;
+    bottom: 400px;
+    right: 400px;
+    font-size: 13px;
+}
+
+.services-h-5{
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 700px;
+}
+
+.services-p-5{
+    font-size: 13px;
+    position: relative;
+    bottom: 700px;
+}
+
+.services-h-2{
+    margin-bottom: 20px;
+    position: relative;
+    bottom: 200px;
+}
+
+.services-p-2{
+    font-size: 13px;
+    position: relative;
+    bottom: 200px;
+}
+
+
+.services-h-6{
+    position: relative;
+    bottom: 1000px;
+    left: 400px;
+    margin-bottom: 20px;
+}
+
+.services-p-6{
+    position: relative;
+    bottom: 1000px;
+    left: 400px;
+    font-size: 13px;
+}
+
+.advantage{
+    background-color: #f2f3f4 ;
+    position: relative;
+    top: 1500px;
+    padding: 250px;
+    text-align: center;
+    height: 1000px;
+}
+
+.left{
+    position: relative;
+    bottom: 10px;
+    left: 420px;
+    text-align: left;
+}
+
+.h-c{
+    position: relative;
+    bottom: 120px;
+    font-size: 40px;
+
+}
+
+.p-c{
+    position: relative;
+    bottom: 90px;
+    font-size: 20px;
+}
+
+.a{
+    margin-bottom: 30px;
+}
+
+.d{
+    margin-bottom: 20px;
+}
+
+.s-1{
+    position: relative;
+    top: 70px;
+    right: 80px;
+}
+
+.contact{
+    position: relative;
+    top: 1700px;
+    text-align: center;
+    height: 150px;
+}
+
+.contact h3{
+    position: relative;
+    bottom: 40px;
+}
+.contact h1{
+    position: relative;
+    top: 25px;
+}
+
+.cp h3{
+    position: relative;
+    top: 160px;
+}
+
+ul {
+    margin-bottom: 40px;
+    list-style: none;
+}
+  
+.example-2 {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.example-2 .icon-content {
+    margin: 0 10px;
+    position: relative;
+    padding: 0.5rem;
+}
+  
+.example-2 .icon-content .tooltip {
+    position: absolute;
+    top: 100%;
+    right: 110%;
+    transform: translateY(200%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+  
+.example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+  
+.example-2 .icon-content a:hover {
+    color: white;
+}
+  
+.example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover .filled {
+    height: 100%;
+}
+  
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+}
+  
+.example-2 .icon-content a[data-social="whatsapp"] .filled,
+.example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip {
+    background-color: #1db954;
+}
+
+.example-2 .icon-content a[data-social="telegram"] .filled,
+.example-2 .icon-content a[data-social="telegram"] ~ .tooltip {
+    background-color: #0088cc;
+}
+
+.example-2 .icon-content a[data-social="youtube"] .filled,
+.example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
+    background-color: #ff0000;
+}
+  
+
+.footer_menu-link{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: 75px;
+}
+
+.footer_menu-link:hover{
+    text-decoration: underline;
+}
+
+.footer_menu-links:hover{
+    text-decoration: underline;
+}
+
+.footer_menu-links{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+footer{
+    position: relative;
+    top: 2000px;
+    padding: 90px;
+    background-color: #e5e7e9;
+}
+
+.container-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer_menu-item{
+    margin-right: 10px;
+}
+
+.footer_item{
+    margin-right: 30px;
+}
+
+.footer_menu-linled:hover{
+    text-decoration: underline;
+}
+
+.footer_menu-linked{
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.slider{
+    width: 1100px;
+    height: 600px;
+    overflow: hidden;
+    border: 10px solid gray;
+}
+
+.middle{
+    position: absolute;
+    top: 2600px;
+    left: 850px;
+    transform: translate(-50%, -50%);
+}
+
+.navigation{
+    position: absolute;
+    bottom: 16px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar{
+    min-height: 8px;
+    width: 30px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ddd;
+    opacity: .7;
+    border-radius: 10px;
+    transition: all .4s ease;
+}
+
+.bar:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 25%;
+    transition: all .6s ease;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -25%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -50%;
+}
+#r4:checked ~ .s1{
+    margin-left: -75%;
+}
