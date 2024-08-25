@@ -21,7 +21,7 @@ html, body {
     background-color: rgb(255, 255, 255);
     float: right;
     margin-top: 4%;
-    box-shadow: 0px 0px 15px 5px #c7caca82;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .previewInfo{
