@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Analytics Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <div class="nps-section">
+            <h2>Net Promoter Score</h2>
+            <div class="nps-score">
+                <span>3.5</span>
+                <div class="stars">
+                    <span>⭐⭐⭐⭐</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gender-section">
+            <h3>Gender</h3>
+            <div class="gender-chart">
+                <div class="female">Female: 45%</div>
+                <div class="male">Male: 55%</div>
+            </div>
+        </div>
+
+        <div class="purpose-section">
+            <h3>Purpose of Visit</h3>
+            <canvas id="purposeChart"></canvas>
+        </div>
+
+        <div class="rating-section">
+            <h3>General Rating</h3>
+            <canvas id="ratingChart"></canvas>
+        </div>
+
+        <div class="nps-details">
+            <div class="detractors">
+                <h4>Detractors</h4>
+                <p>216 (31%)</p>
+            </div>
+            <div class="passives">
+                <h4>Passives</h4>
+                <p>153 (22%)</p>
+            </div>
+            <div class="promoters">
+                <h4>Promoters</h4>
+                <p>317 (46%)</p>
+            </div>
+        </div>
+
+        <div class="source-section">
+            <h3>Source of Information</h3>
+            <canvas id="sourceChart"></canvas>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

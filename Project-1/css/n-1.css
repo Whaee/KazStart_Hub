@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.featured-story {
+    flex: 2;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+    height: 580px;
+}
+
+.featured-story img {
+    width: 100%;
+    height: 590px;
+    display: block;
+}
+
+.featured-story .info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.featured-story .info .category {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.featured-story .info h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.related-stories {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.related-story {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.related-story img {
+    width: 160px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.related-story .info {
+    flex: 1;
+}
+
+.related-story .info p {
+    margin: 0;
+    color: #888;
+    font-size: 12px;
+}
+
+.related-story .info h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.related-story .info .time {
+    color: #888;
+    font-size: 12px;
+}
+
+.top-stories {
+    padding: 20px;
+}
+
+.top-stories h2 {
+    font-size: 24px;
+    position: relative;
+    top: 60px;
+    left: 15%;
+    color: #00a;
+}
+
+.stories-container {
+    position: relative;
+    top: 80px;
+    left: 15%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.stories-container-1 {
+    position: relative;
+    top: 350px;
+    left: 16%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.story-card {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.story-card:hover {
+    transform: translateY(-5px);
+}
+
+.story-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.story-content {
+    padding: 15px;
+}
+
+.story-content h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.story-content p {
+    font-size: 12px;
+    color: #666;
+    margin: 0 0 5px;
+}
+
+.story-content small {
+    color: #999;
+}
+
+.story-time {
+    font-size: 12px;
+    color: #999;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-top: 1px solid #eee;
+}
+
+.container-1{
+    position: relative;
+    top: 100px;
+    left: 30px;
+    margin-bottom: 100px;
+}
+
+.i-2{
+    position: relative;
+    top: 150px;
+    left: 22%;
+    height: 600px;
+    width: 1000px;
+}
+
+.text-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 150px;
+    left: 22%;
+    width: 1000px;
+}
+
+.container-2{
+    position: relative;
+    top: 200px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.top-stories-1{
+    position: relative;
+    top: 300px;
+    padding: 20px;
+}
+
+footer{
+    position: relative;
+    top: 600px;
+    padding: 90px;
+    background-color: #e5e7e9;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+.footer-bottom p {
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.footer-bottom a {
+    color: black;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+.mobile-apps a {
+    margin: 0 5px;
+}
+
+.mobile-apps img {
+    width: 24px;
+}

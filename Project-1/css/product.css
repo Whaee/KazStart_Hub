@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    padding: 40px;    
+}
+
+.card{
+    width: 780px;
+    height: 450px;
+    border-radius: 1em;
+    overflow: hidden;
+    box-shadow: 0 10px 20px #dbdbdb;
+    font-family: sans-serif;
+}
+
+.palette {
+    display: flex;
+    height: 86%;
+    width: 100%;
+}
+  
+.color{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: flex 0.1s linear;
+}
+  
+.color span {
+    opacity: 0;
+    transition: opacity 0.1s linear;
+    font-size: 20px;
+}
+
+.s-1{
+    color: black;
+}
+  
+.color:nth-child(1) {
+    background: lightblue;
+}
+  
+.color:nth-child(2) {
+    background: white;
+}
+  
+.color:nth-child(3) {
+    background: lightblue;
+}
+  
+.color:nth-child(4) {
+    background: white;
+}
+  
+.color:nth-child(5) {
+    background: lightblue;
+}
+  
+.color:hover {
+    flex: 2;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+  
+.color:hover span {
+    opacity: 1;
+}
+  
+#stats {
+    font-size: 20px;
+    height: 14%;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5em;
+    box-sizing: border-box;
+    color: #bebebe;
+}
+  
+#stats svg {
+    font-size: 20px;
+    fill: #bebebe;
+    transform: scale(1.2);
+}
+
+.a-1{
+    font-size: 20px;
+    text-decoration: none;
+    color: #bebebe;
+}
+
+.a-1:hover{
+    color: black;
+}
