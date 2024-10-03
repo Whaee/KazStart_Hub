@@ -1,0 +1,21 @@
+.btn-1{
+    background-color: #e5e7e9;
+    padding: 13px;
+    width: 180px;
+    border: none;
+    left: 88%;
+    font-size: 15px;
+    position: relative;
+    top: 800px;
+    left: 800px;
+}
+
+.btn-1:hover{
+    background-color: #fff;
+    box-shadow: 1px 4px 4px 0px #e5e7e9;
+}
+
+.btn-1 a{
+    color: black;
+    text-decoration: none;
+}
