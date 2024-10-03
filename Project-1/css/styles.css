@@ -16,7 +16,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    max-width: 1300px;
+    max-width: 1000px;
 }
 
 .nps-section, .gender-section, .purpose-section, .rating-section, .nps-details, .source-section {
