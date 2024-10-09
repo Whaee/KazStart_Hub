@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0e1224;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.dashboard {
+    position: relative;
+    top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    max-width: 1000px;
+}
+
+.nps-section, .gender-section, .purpose-section, .rating-section, .nps-details, .source-section {
+    background-color: #1e243d;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.nps-score {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.stars {
+    color: gold;
+    margin-left: 10px;
+}
+
+.gender-chart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nps-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.detractors, .passives, .promoters {
+    text-align: center;
+}
+
+canvas {
+    width: 100% !important;
+    height: auto !important;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Speciality</title>
+    <link rel="stylesheet" href="css/d-1.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<div class="container-1">
+    <div class="container">
+        <div class="speciality">
+            <h2>Speciality</h2>
+            <div class="speciality-list">
+                <ul>
+                    <li><a href="#">Artificial Intelligence</a></li>
+                    <li><a href="#">ERP Consulting</a></li>
+                    <li><a href="#">Custom Software Development</a></li>
+                    <li><a href="#">Application Management & Support</a></li>
+                    <li><a href="#">E-Commerce Development</a></li>
+                    <li><a href="#">Mobile App Development</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Business Consulting</a></li>
+                    <li><a href="#">CRM Consulting</a></li>
+                    <li><a href="#">View All</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="services-focus">
+            <h2 class="h-1">Main Services Focus</h2>
+            <canvas id="servicesChart"></canvas>
+            <div class="legend">
+                <span class="label ai">Artificial Intelligence</span>
+                <span class="label erp">ERP Consulting</span>
+                <span class="label software">Custom Software Development</span>
+                <span class="label app-support">Application Management & Support</span>
+                <span class="label ecommerce">E-Commerce Development</span>
+                <span class="label mobile">Mobile App Development</span>
+                <span class="label web-dev">Web Development</span>
+                <span class="label web-design">Web Design</span>
+                <span class="label business">Business Consulting</span>
+                <span class="label crm">CRM Consulting</span>
+                <span class="label uxui">UX/UI Design</span>
+                <span class="label enterprise">Enterprise App Modernization</span>
+                <span class="label testing">Application Testing</span>
+                <span class="label it-consulting">IT Consulting</span>
+                <span class="label it-managed">IT Managed</span>
+                <span class="label logo">Logo Design</span>
+                <span class="label graphic">Graphic Design</span>
+                <span class="label product">Product Design</span>
+                <span class="label seo">SEO</span>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="container-1-1">
+    <div class="container-2">
+        <div class="header">
+            <h1>Unical Stats</h1>
+            <div class="tab">
+                <span class="tab-title">General</span>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>How Unical compares to other companies based on profile strength?</p>
+
+            <div class="chart-container">
+                <canvas id="profileStrengthChart"></canvas>
+            </div>
+            </div>
+            <div class="toggle-container">
+                <div class="legend-1">
+                    <span class="legend-item in-uzbekistan">
+                        <span class="circle blue"></span> In Uzbekistan
+                    </span>
+                    <div class="toggle">
+                        <input type="checkbox" id="locationToggle" checked>
+                        <label for="locationToggle"></label>
+                    </div>
+                    <span class="legend-item in-tashkent">In Tashkent</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <div class="container-4">
+        <h2 class="h-3">Client Focus</h2>
+        
+        <div class="client-focus-item">
+            <div class="client-label">20% - Small Business ($500k - $1M)</div>
+            <div class="progress-bar"><div class="progress" data-value="20"></div></div>
+        </div>
+        
+        <div class="client-focus-item">
+            <div class="client-label">20% - Mid-market ($1M - $10M)</div>
+            <div class="progress-bar"><div class="progress" data-value="20"></div></div>
+        </div>
+        
+        <div class="client-focus-item">
+            <div class="client-label">20% - Enterprise (&gt;$10M)</div>
+            <div class="progress-bar"><div class="progress" data-value="20"></div></div>
+        </div>
+        
+        <div class="client-focus-item">
+            <div class="client-label">20% - General partnership ($200k - $500k)</div>
+            <div class="progress-bar"><div class="progress" data-value="20"></div></div>
+        </div>
+        
+        <div class="client-focus-item">
+            <div class="client-label">20% - Starting to scale (&lt;$200K)</div>
+            <div class="progress-bar"><div class="progress" data-value="20"></div></div>
+        </div>
+        
+    </div>
+
+    <div class="container-5">
+        <h3>How much does Unical charge for their services compared to other companies in Uzbekistan and Tashkent?</h3>
+        <canvas id="serviceChargesChart" width="600" height="400"></canvas>
+    </div>
+    
+    <script src="js/script-1.js"></script>
+</body>
+</html>

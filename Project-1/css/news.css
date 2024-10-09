@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    display: flex;
+    gap: 20px;
+}
+.featured-story {
+    flex: 2;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+.featured-story img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.featured-story .info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+.featured-story .info .category {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.featured-story .info h2 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.related-stories {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.related-story {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.related-story img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.related-story .info {
+    flex: 1;
+}
+.related-story .info p {
+    margin: 0;
+    color: #888;
+    font-size: 12px;
+}
+.related-story .info h3 {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+.related-story .info .time {
+    color: #888;
+    font-size: 12px;
+}
